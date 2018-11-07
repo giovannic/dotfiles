@@ -10,11 +10,10 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdcommenter'
-
 Bundle "pangloss/vim-javascript"
-Bundle "Valloric/YouCompleteMe"
-Bundle "marijnh/tern_for_vim"
-Bundle 'mileszs/ack.vim'
+Bundle 'mxw/vim-jsx'
+Bundle 'w0rp/ale'
+pundle "Valloric/YouCompleteMe"
 Bundle 'tpope/vim-surround'
 
 " All of your Plugins must be added before the following line
