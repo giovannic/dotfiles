@@ -13,7 +13,7 @@ Plugin 'scrooloose/nerdcommenter'
 Bundle "pangloss/vim-javascript"
 Bundle 'mxw/vim-jsx'
 Bundle 'w0rp/ale'
-pundle "Valloric/YouCompleteMe"
+Bundle "Valloric/YouCompleteMe"
 Bundle 'tpope/vim-surround'
 
 " All of your Plugins must be added before the following line
@@ -65,7 +65,6 @@ vnoremap ' %
 "Scons
 au BufNewFile,BufRead SConstruct setlocal ft=python
 
-nnoremap <up> <nop>
-nnoremap <down> <nop>
-nnoremap <left> <nop>
-nnoremap <right> <nop>
+"Sometimes I don't like indenting
+:nnoremap <F8> :setl noai nocin nosi inde=<CR>
+set pastetoggle=<F2>
